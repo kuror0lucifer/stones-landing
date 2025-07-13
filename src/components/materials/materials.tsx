@@ -9,7 +9,7 @@ export type Props = {
 export const Materials = ({ materials }: Props) => {
   return (
     <div
-      className='flex flex-col items-center justify-center gap-15 text-white px-58 mt-40 text-center'
+      className='flex flex-col items-center justify-center gap-15 text-white md:px-58 mt-40 text-center'
       id='materials'
     >
       <h1 className='text-5xl'>Каталог камня</h1>

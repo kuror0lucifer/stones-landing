@@ -13,7 +13,7 @@ export const ContentItemMobile = ({
 }: Props) => {
   return (
     <div className='flex flex-col justify-between items-center gap-20'>
-      <div className=' md:w-158 flex flex-col gap-7 items-baseline justify-center'>
+      <div className='md:w-158 flex flex-col gap-7 items-baseline justify-center'>
         {subtitleSlot}
         {titleSlot}
         {textSlot}

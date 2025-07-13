@@ -159,7 +159,7 @@ export const AppConnector = () => {
         </div>
 
         <div
-          className='flex flex-col gap-50 px-58'
+          className='flex flex-col gap-50 md:px-58'
           id='services'
         >
           {isReady &&

@@ -14,7 +14,7 @@ export const ContactBlock = ({
 }: Props) => {
   return (
     <div
-      className='flex flex-col gap-5 items-center justify-center text-white mt-20 px-58'
+      className='flex flex-col gap-5 items-center justify-center text-white mt-20 md:px-58'
       id='contacts'
     >
       <h1 className='text-[2.5rem] font-bold'>{title}</h1>
