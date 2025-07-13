@@ -1,0 +1,9 @@
+@import 'tailwindcss';
+
+* {
+  font-family: 'Chronicle Display';
+}
+
+body {
+  width: 100%;
+}
