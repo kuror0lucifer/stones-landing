@@ -16,7 +16,7 @@ export type Props = {
 
 export const Footer = ({ address, contact, email, nav, title }: Props) => {
   return (
-    <footer className='flex justify-between align-baseline text-white px-10 md:px-58 mt-25'>
+    <footer className='flex justify-between align-baseline text-white px-10 md:px-58 mt-25 pb-10'>
       <div className='flex flex-col gap-5'>
         <p className='text-[24px]'>{title}</p>
         <p className='text-[16px]'>{address}</p>

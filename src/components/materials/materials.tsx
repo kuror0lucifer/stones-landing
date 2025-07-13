@@ -8,7 +8,10 @@ export type Props = {
 
 export const Materials = ({ materials }: Props) => {
   return (
-    <div className='flex flex-col items-center justify-center gap-15 text-white px-58 mt-40 text-center'>
+    <div
+      className='flex flex-col items-center justify-center gap-15 text-white px-58 mt-40 text-center'
+      id='materials'
+    >
       <h1 className='text-5xl'>Каталог камня</h1>
       <div className='flex  items-center justify-center md:justify-between flex-wrap gap-10'>
         {materials.map(item => (

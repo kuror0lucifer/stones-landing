@@ -158,7 +158,10 @@ export const AppConnector = () => {
           )}
         </div>
 
-        <div className='flex flex-col gap-50 px-58'>
+        <div
+          className='flex flex-col gap-50 px-58'
+          id='services'
+        >
           {isReady &&
             servicesData.map((item, i) => (
               <ContentItemConnector
